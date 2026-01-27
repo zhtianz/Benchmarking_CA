@@ -22,11 +22,13 @@ This project aims to evaluate the performance of Cα atom prediction across diff
    ```bash
    cd <your_project_path>
    git clone https://github.com/zhtianz/Benchmarking_CA.git
+   ```
 
 ## Usage
    ```bash
    cd Benchmarking_CA/src
    python CAEVAL.py -r <native_model.pdb> -p <predict_model.pdb> -o <output_file>
+   ```
 
 ### Commands
 - `-r` : Reference model in PDB/CIF format
@@ -37,5 +39,6 @@ This project aims to evaluate the performance of Cα atom prediction across diff
    ```bash
    cd Benchmarking_CA/src
    python CAEVAL.py -r example/7kjr.pdb -p example/22898_pred.cif -o eval_result.log
+   ```
 
 The evaluation results can be found in the file  `eval_result.log`.
