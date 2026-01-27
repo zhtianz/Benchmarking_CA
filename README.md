@@ -19,7 +19,6 @@ This project aims to evaluate the performance of Cα atom prediction across diff
 | tqdm       | 4.66.5  |
 
 ### Installation Steps
-**Clone the repository:**
    ```bash
    cd <your_project_path>
    git clone https://github.com/zhtianz/Benchmarking_CA.git
