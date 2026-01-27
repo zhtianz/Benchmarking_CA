@@ -2,8 +2,11 @@
 
 ## Project Overview
 This project aims to evaluate the performance of Cα atom prediction across different atomic model building methods.
+
 ---
+
 ## Installation and Environment Setup
+
 ### Dependencies
 | Dependency | Version |
 |------------|---------|
@@ -21,16 +24,19 @@ This project aims to evaluate the performance of Cα atom prediction across diff
    cd <your_project_path>
    git clone https://github.com/zhtianz/Benchmarking_CA.git
 
+
+
 ## Usage
    ```bash
    cd Benchmarking_CA/src
    python CAEVAL.py -r <native_model.pdb> -p <predict_model.pdb> -o <output_file>
-###Commands
+
+### Commands
 - `-r` : Reference model in PDB/CIF format
 - `-p` : Predicted model in PDB/CIF format
 - `-o` : Output file
 
-##Example
+## Example
    ```bash
    cd Benchmarking_CA/src
    python CAEVAL.py -r example/7kjr.pdb -p example/22898_pred.cif -o eval_result.log
