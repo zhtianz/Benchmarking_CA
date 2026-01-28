@@ -25,6 +25,7 @@ This project aims to evaluate the performance of Cα atom prediction across diff
    ```
 
 ## Usage
+`CAEVAL.py` is designed to evaluate Cα atom predictions between two atomic models. It calculates the following metrics:
 *   **Evaluation metrics at multiple distance thresholds ([3.0Å, 2.0Å, 1.0Å]):**
     *   Precision
     *   Recall
