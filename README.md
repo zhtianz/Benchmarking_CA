@@ -42,3 +42,14 @@ This project aims to evaluate the performance of Cα atom prediction across diff
    ```
 
 The evaluation results can be found in the file  `eval_result.log`.
+
+---
+
+## Additional Information
+
+### Obtaining Prediction Results
+For detailed instructions and methods on how to obtain $C\alpha$ atom prediction results, please refer to the documentation in [src/GETCA.md](src/GETCA.md).
+
+### Datasets
+The `datasets` directory contains comprehensive details regarding the **test datasets** used in this benchmark.
+
