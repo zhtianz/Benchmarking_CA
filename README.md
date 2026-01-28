@@ -25,6 +25,15 @@ This project aims to evaluate the performance of Cα atom prediction across diff
    ```
 
 ## Usage
+## Usage
+*   **Evaluation metrics at multiple distance thresholds ([3.0Å, 2.0Å, 1.0Å]):**
+    *   Precision
+    *   Recall
+*   F1-score
+*   r.m.s.d.
+*   **Chamfer Distance**
+*   **Earth Mover's Distance (EMD)**
+
    ```bash
    cd Benchmarking_CA/src
    python CAEVAL.py -r <native_model.pdb> -p <predict_model.pdb> -o <output_file>
