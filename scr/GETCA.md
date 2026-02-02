@@ -28,7 +28,7 @@ Similar to ModelAngelo, the iterative rounds must be disabled to extract the ini
 - **Execution:**
   ```bash
   conda activate CryoAtom
-  cryoatom build --map-path [map_path] --fasta-path [fasta_path] --output-dir [output_path] --keep-intermediate-results
+  cryoatom build --map-path [map_path] --sequence-path [fasta_path] --output-dir [output_path] --keep-intermediate-results
   ```
 - **Output File:** `${output_path}/see_alpha_output/see_alpha_output_ca.cif`
 
